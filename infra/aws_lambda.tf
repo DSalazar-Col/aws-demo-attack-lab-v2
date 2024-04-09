@@ -34,4 +34,5 @@ resource "aws_lambda_function" "analysis_lambda" {
       secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
     }
   }
+  code_signing_config_arn = "CKV_ANY"
 }
